@@ -5,10 +5,7 @@ networks:
 
 services:
   frontend:
-    container_name: front_back
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: nginx:alpine
     restart: unless-stopped
     environment:
       DB_PATH: /app/db/db.sqlite3
