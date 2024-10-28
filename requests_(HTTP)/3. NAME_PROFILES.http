@@ -1,11 +1,11 @@
 ### 1. GET.
 GET http://91.197.96.129/api/name-profiles/
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxNjU3ODEyLCJpYXQiOjE3MzAxMjE4MTIsImp0aSI6IjA2MWM0NTY5N2M3MzRlMTFiYTZkNDQxZjE2ODQ2ZjNiIiwidXNlcl9pZCI6Mn0.yDoqBfRYi18Vakjmgv7jqgOyXJ_dwLg8EcdO14yFkic
 
 
 ### 2. POST.
 POST http://91.197.96.129/api/name-profiles/
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxNjU3ODEyLCJpYXQiOjE3MzAxMjE4MTIsImp0aSI6IjA2MWM0NTY5N2M3MzRlMTFiYTZkNDQxZjE2ODQ2ZjNiIiwidXNlcl9pZCI6Mn0.yDoqBfRYi18Vakjmgv7jqgOyXJ_dwLg8EcdO14yFkic
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ###3. PATCH. Изменение  (по id)
 PATCH http://91.197.96.129/api/name-profiles/5/
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxNjU3ODEyLCJpYXQiOjE3MzAxMjE4MTIsImp0aSI6IjA2MWM0NTY5N2M3MzRlMTFiYTZkNDQxZjE2ODQ2ZjNiIiwidXNlcl9pZCI6Mn0.yDoqBfRYi18Vakjmgv7jqgOyXJ_dwLg8EcdO14yFkic
 Content-Type: application/json
 
 {
@@ -25,5 +25,5 @@ Content-Type: application/json
 
 ### 4. DELETE. Удаление  (по id)
 DELETE http://91.197.96.129/api/name-profiles/5/
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxNjU3ODEyLCJpYXQiOjE3MzAxMjE4MTIsImp0aSI6IjA2MWM0NTY5N2M3MzRlMTFiYTZkNDQxZjE2ODQ2ZjNiIiwidXNlcl9pZCI6Mn0.yDoqBfRYi18Vakjmgv7jqgOyXJ_dwLg8EcdO14yFkic
 
