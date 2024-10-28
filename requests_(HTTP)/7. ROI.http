@@ -1,10 +1,10 @@
 ### 1. GET
-GET http://localhost/api/roi/
+GET http://91.197.96.129/api/roi/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST
-POST http://localhost/api/roi/
+POST http://91.197.96.129/api/roi/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -18,7 +18,7 @@ Content-Type: application/json
 
 
 ### 3. PATCH
-PATCH http://localhost/api/roi/3/
+PATCH http://91.197.96.129/api/roi/3/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -28,6 +28,6 @@ Content-Type: application/json
 
 
 ### 4. DELETE
-DELETE http://localhost/api/roi/3/
+DELETE http://91.197.96.129/api/roi/3/
 Authorization: Bearer {{token}}
 

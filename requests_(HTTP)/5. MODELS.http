@@ -1,10 +1,10 @@
 ### 1. GET
-GET http://localhost/api/models/
+GET http://91.197.96.129/api/models/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST
-POST http://localhost/api/models/
+POST http://91.197.96.129/api/models/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -19,7 +19,7 @@ Content-Type: application/json
 
 
 ### 3. PATCH
-PATCH http://localhost/api/models/8/
+PATCH http://91.197.96.129/api/models/8/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -29,6 +29,6 @@ Content-Type: application/json
 
 
 ### 4. DELETE
-DELETE http://localhost/api/models/8/
+DELETE http://91.197.96.129/api/models/8/
 Authorization: Bearer {{token}}
 

@@ -1,10 +1,10 @@
 ### 1. GET
-GET http://localhost/api/object-classes/
+GET http://91.197.96.129/api/object-classes/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST
-POST http://localhost/api/object-classes/
+POST http://91.197.96.129/api/object-classes/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 
 
 ### 3. PATCH
-PATCH http://localhost/api/object-classes/18/
+PATCH http://91.197.96.129/api/object-classes/18/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -32,6 +32,6 @@ Content-Type: application/json
 
 
 ### 4. DELETE
-DELETE http://localhost/api/object-classes/18/
+DELETE http://91.197.96.129/api/object-classes/18/
 Authorization: Bearer {{token}}
 

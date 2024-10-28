@@ -1,29 +1,29 @@
 ### 1. GET.
-GET http://localhost/api/name-videofiles/
+GET http://91.197.96.129/api/detect-classes/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST.
-POST http://localhost/api/name-videofiles/
+POST http://91.197.96.129/api/detect-classes/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "krasava.mp4"
+  "number": 80
 }
 
 
-###3. PATCH. Изменение  (по id)
-PATCH http://localhost/api/name-videofiles/8/
+###3. PATCH. Изменение (по id)
+PATCH http://91.197.96.129/api/detect-classes/16/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "krasava2.mp4"
+  "number": 8000
 }
 
 
 ### 4. DELETE. Удаление  (по id)
-DELETE http://localhost/api/name-videofiles/8/
+DELETE http://91.197.96.129/api/detect-classes/16/
 Authorization: Bearer {{token}}
 

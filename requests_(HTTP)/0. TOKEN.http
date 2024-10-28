@@ -1,0 +1,27 @@
+### USER - Создание нового Юзера
+POST http://91.197.96.129/api/users/
+Content-Type: application/json
+
+{
+  "username": "user4",
+  "password": "admin123456"
+}
+
+
+### Создать TOKEN для нового Юзера (копируем значение ключа "access")
+POST http://91.197.96.129/api/auth/jwt/create/
+Content-Type: application/json
+
+{
+  "username": "user4",
+  "password": "admin123456"
+}
+
+
+
+### ДОПОЛНИТЕЛЬНО******************************************************************************
+
+### Проверка данных Юзера
+GET http://91.197.96.129/api/users/me/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxNjU3ODEyLCJpYXQiOjE3MzAxMjE4MTIsImp0aSI6IjA2MWM0NTY5N2M3MzRlMTFiYTZkNDQxZjE2ODQ2ZjNiIiwidXNlcl9pZCI6Mn0.yDoqBfRYi18Vakjmgv7jqgOyXJ_dwLg8EcdO14yFkic
+

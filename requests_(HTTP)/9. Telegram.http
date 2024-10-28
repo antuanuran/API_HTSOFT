@@ -1,10 +1,10 @@
 ### 1. GET
-GET http://localhost/api/telegram/
+GET http://91.197.96.129/api/telegram/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST
-POST http://localhost/api/telegram/
+POST http://91.197.96.129/api/telegram/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 
 ### 3. PATCH
-PATCH http://localhost/api/telegram/1/
+PATCH http://91.197.96.129/api/telegram/1/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
@@ -25,7 +25,7 @@ Content-Type: application/json
 
 
 ### 4. DELETE
-DELETE http://localhost/api/telegram/1/
+DELETE http://91.197.96.129/api/telegram/1/
 Authorization: Bearer {{token}}
 
 ###***********************************************************************************
@@ -33,7 +33,7 @@ Authorization: Bearer {{token}}
 
 
 ### 1. GET
-GET http://localhost/api/tg-chats/
+GET http://91.197.96.129/api/tg-chats/
 Authorization: Bearer {{token}}
 
 

@@ -1,29 +1,29 @@
 ### 1. GET.
-GET http://localhost/api/name-profiles/
+GET http://91.197.96.129/api/name-videofiles/
 Authorization: Bearer {{token}}
 
 
 ### 2. POST.
-POST http://localhost/api/name-profiles/
+POST http://91.197.96.129/api/name-videofiles/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "h264-666"
+  "name": "krasava.mp4"
 }
 
 
 ###3. PATCH. Изменение  (по id)
-PATCH http://localhost/api/name-profiles/5/
+PATCH http://91.197.96.129/api/name-videofiles/8/
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "h264-777"
+  "name": "krasava2.mp4"
 }
 
 
 ### 4. DELETE. Удаление  (по id)
-DELETE http://localhost/api/name-profiles/5/
+DELETE http://91.197.96.129/api/name-videofiles/8/
 Authorization: Bearer {{token}}
 
