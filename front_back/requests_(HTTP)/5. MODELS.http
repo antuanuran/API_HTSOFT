@@ -1,0 +1,34 @@
+### 1. GET
+GET http://localhost/api/models/
+Authorization: Bearer {{token}}
+
+
+### 2. POST
+POST http://localhost/api/models/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "name_model": "human_fault",
+      "path": "/app/models/pt/human.pt",
+      "conf": 0.66,
+      "type": "model_pose_yolo",
+      "task": "pose",
+      "detect_classes": [1, 2, 3, 4, 5]
+}
+
+
+### 3. PATCH
+PATCH http://localhost/api/models/8/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "detect_classes": [1, 2, 3, 4]
+}
+
+
+### 4. DELETE
+DELETE http://localhost/api/models/8/
+Authorization: Bearer {{token}}
+

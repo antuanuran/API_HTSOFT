@@ -1,0 +1,15 @@
+[Unit]
+Description=HT Soft
+After=network.target nginx.service
+
+[Service]
+PIDFile=/var/opt/backend_htsoft.pid
+User=root
+Group=root
+WorkingDirectory=/home/xts/D/uranov_front/SPHERE-SA/front_back
+
+ExecStart=/home/xts/D/uranov_front/SPHERE-SA/front_back/run.sh
+ExecStop=/bin/kill -15 $MAINPID
+
+[Install]
+WantedBy=multi-user.target

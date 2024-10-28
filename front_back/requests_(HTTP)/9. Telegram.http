@@ -1,0 +1,63 @@
+### 1. GET
+GET http://localhost/api/telegram/
+Authorization: Bearer {{token}}
+
+
+### 2. POST
+POST http://localhost/api/telegram/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "name": "token",
+    "token": "7199457381:AAEEqng7z1b8qWrJxR-0Pu0Ye5ywJL0zUos"
+}
+
+
+### 3. PATCH
+PATCH http://localhost/api/telegram/1/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "name": "token_77777"
+}
+
+
+### 4. DELETE
+DELETE http://localhost/api/telegram/1/
+Authorization: Bearer {{token}}
+
+###***********************************************************************************
+###CHATS IDS
+
+
+### 1. GET
+GET http://localhost/api/tg-chats/
+Authorization: Bearer {{token}}
+
+
+### 2. POST
+POST http://localhost/api/tg-chats/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "config_id":  2,
+  "chat": "38910803"
+}
+
+
+### 3. PATCH
+PATCH http://localhost/api/tg-chats/2/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "chat": "38910803"
+}
+
+
+### 4. DELETE
+DELETE http://localhost/api/tg-chats/2/
+Authorization: Bearer {{token}}

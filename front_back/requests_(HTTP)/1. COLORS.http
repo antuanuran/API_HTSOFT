@@ -1,0 +1,31 @@
+### 1. GET.
+GET http://localhost/api/colors/
+Authorization: Bearer {{token}}
+
+
+### 2. POST.
+POST http://localhost/api/colors/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "krasava2",
+  "value": "#000000"
+}
+
+
+###3. PATCH. Изменение Цвета (по id)
+PATCH http://localhost/api/colors/10/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "krasava3",
+  "value": "#000000"
+}
+
+
+### 4. DELETE. Удаление Цвета (по id)
+DELETE http://localhost/api/colors/10/
+Authorization: Bearer {{token}}
+

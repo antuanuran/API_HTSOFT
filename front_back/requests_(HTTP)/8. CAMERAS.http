@@ -1,0 +1,43 @@
+### 1. GET
+GET http://localhost/api/cameras/
+Authorization: Bearer {{token}}
+
+
+### 2. POST - (добавление осущетвляется по id)
+POST http://localhost/api/cameras/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "name": "66766311111",
+    "location_rtspsrc": "rtsp://service:Admin12345!@10.0.10.49:554/profile2",
+    "location_description": "Room 417",
+    "framerate": 16,
+    "hlssink_width": 1200,
+    "hlssink_height": 600,
+    "video_width": 1200,
+    "video_height": 600,
+    "port": 8554,
+    "opencv_output_width": 1200,
+    "opencv_output_height": 600,
+    "quality": "low",
+    "profiles_id": 2,
+    "roi_id": 1,
+    "models": [1, 2]
+}
+
+
+### 3. PATCH
+PATCH http://localhost/api/cameras/11/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "models": [1, 2, 3, 4]
+}
+
+
+### 4. DELETE
+DELETE http://localhost/api/cameras/12/
+Authorization: Bearer {{token}}
+

@@ -1,0 +1,29 @@
+### 1. GET.
+GET http://localhost/api/detect-classes/
+Authorization: Bearer {{token}}
+
+
+### 2. POST.
+POST http://localhost/api/detect-classes/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "number": 80
+}
+
+
+###3. PATCH. Изменение (по id)
+PATCH http://localhost/api/detect-classes/16/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "number": 8000
+}
+
+
+### 4. DELETE. Удаление  (по id)
+DELETE http://localhost/api/detect-classes/16/
+Authorization: Bearer {{token}}
+

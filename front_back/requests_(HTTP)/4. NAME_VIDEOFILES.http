@@ -1,0 +1,29 @@
+### 1. GET.
+GET http://localhost/api/name-videofiles/
+Authorization: Bearer {{token}}
+
+
+### 2. POST.
+POST http://localhost/api/name-videofiles/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "krasava.mp4"
+}
+
+
+###3. PATCH. Изменение  (по id)
+PATCH http://localhost/api/name-videofiles/8/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "krasava2.mp4"
+}
+
+
+### 4. DELETE. Удаление  (по id)
+DELETE http://localhost/api/name-videofiles/8/
+Authorization: Bearer {{token}}
+

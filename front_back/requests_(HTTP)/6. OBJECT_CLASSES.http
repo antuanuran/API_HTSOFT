@@ -1,0 +1,37 @@
+### 1. GET
+GET http://localhost/api/object-classes/
+Authorization: Bearer {{token}}
+
+
+### 2. POST
+POST http://localhost/api/object-classes/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "name_object_class": "fight",
+      "topic": "tns1:VideoAnalytics/Skeleton/Person",
+      "text_for_onvif": "Person detected",
+      "text_for_telegram": "Обнаружен человек",
+      "save_interval": 1,
+      "telegram_send_interval": 1,
+      "onvif_send_interval": 5,
+      "color_id":        5,
+      "model_detect_id": 1
+}
+
+
+### 3. PATCH
+PATCH http://localhost/api/object-classes/18/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "color_id": 4
+}
+
+
+### 4. DELETE
+DELETE http://localhost/api/object-classes/18/
+Authorization: Bearer {{token}}
+

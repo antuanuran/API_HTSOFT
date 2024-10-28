@@ -1,0 +1,13 @@
+{% extends "admin/index.html" %} {% load i18n %} {% block sidebar %}
+<div id="content-related">
+    <div class="module" id="recent-actions-module">
+        <h2>{% trans 'IMAGES' %}</h2>
+
+        <ul class="actionlist">
+            <li class="addlink">
+                <a href="{% url 'images-static' %}">ДЕТЕКЦИИ СОБЫТИЙ (ФОТО)</a>
+            </li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
